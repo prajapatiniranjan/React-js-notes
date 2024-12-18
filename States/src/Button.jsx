@@ -13,9 +13,9 @@ function Button() {
       <div style={{ height: "100vh", width: "100vw", backgroundColor: count }}>
         <h1>{count}</h1>
         <button onClick={handleYellow}>Yellow</button>
+        <button onClick={handleRed}>Red</button>
         <button onClick={handleOrange}>Orange</button>
         <button onClick={handleGreen}>Green</button>
-        <button onClick={handleRed}>Red</button>
       </div>
     </>
   );
